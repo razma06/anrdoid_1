@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <style android:name="RoundedImage">
+        <item android:name="android:background">@drawable/rounded_image</item>
+        <item android:name="android:padding">4dp</item>
+    </style>
+
+    <!-- Rounded image drawable -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="oval">
+        <solid android:color="@color/colorAccent" />
+    </shape>
+</selector>
